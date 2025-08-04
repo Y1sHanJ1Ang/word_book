@@ -1,9 +1,9 @@
 import customtkinter as ctk
 from tkinter import messagebox
 import random
-from ..database.database import WordDatabase
-from ..api.dictionary_api import DictionaryAPI
-from ...shared.models import Word
+from pc_app.database.database import WordDatabase
+from pc_app.api.dictionary_api import DictionaryAPI
+from shared.models import Word
 
 class MainWindow:
     def __init__(self):

@@ -2,7 +2,7 @@ import sqlite3
 import os
 from datetime import datetime
 from typing import List, Optional
-from ...shared.models import Word
+from shared.models import Word
 
 class WordDatabase:
     def __init__(self, db_path: str = "word_book.db"):
